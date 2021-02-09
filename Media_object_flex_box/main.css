@@ -1,0 +1,35 @@
+.media-object {
+  display: flex;        /* ez kellett */
+  max-width: 600px;
+  border: 2px solid black;
+  padding: 1rem;
+  margin: 0 0 1rem 0;
+}
+
+.media-image {
+  margin-right: 1rem;
+}
+
+.image-right {
+  order: 1;            /* ez kellett */
+}
+
+.media-text {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
+  flex: 1;               /* ez kellett */
+}
+
+
+
+
+
+
+
+.image-right {
+  align-self: center;     /*  ez is opcionális */
+}
+
+.rocket {
+  align-self: center;     /*  meg ez opcionális  */
+}

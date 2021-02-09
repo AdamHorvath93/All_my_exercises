@@ -1,0 +1,62 @@
+/* GENERAL STYLES */
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* NAV BAR styles */
+nav {
+  max-width: 425px;
+  font-family: Anton, sans-serif;
+  background-color: #d9d9d9;
+  text-align: center;
+}
+
+
+
+/* Nav bar LIST styles */
+li.nav-list {
+  background-color: #d9d9d9; /* only for help */
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+  border-bottom: 1px solid #a6a6a6;
+}
+
+
+
+li.nav-list:hover {
+  background-color:  #ffffff;
+  border-bottom: none;
+  transition: 0.4s;
+}
+
+
+/* Nav bar BUTTONS styles */
+a.btn {
+  color: #ff0066;
+  text-decoration: none;
+  vertical-align: middle;
+  display: block; /* display: block értéket adunk a navigációs linkeknek, hogy megnöveljük a kattintható terület méretét! */
+  padding: 0px 22px;
+}
+
+a.active {
+  background-color: #c74f78;
+  color: #eee;
+}
+
+
+
+/* Media Query-k */
+@media (min-width: 426px) {
+  nav {
+    max-width: 100vw;
+  }
+  li.nav-list {
+    display: inline-block;
+    border-bottom: none;
+    margin-left: -4px;
+  }
+}

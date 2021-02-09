@@ -1,0 +1,398 @@
+
+
+
+
+/* ============== GENERAL styles ================ */
+* {
+  box-sizing: border-box;
+}
+.whole-page {  /* only to help */
+  width: 100vw;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #002699;
+}
+html {
+  background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+/* ============== ASIDE styles ================== */
+.aside {
+  width: 13%;
+  height: ;
+  text-align: center;
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+}
+
+div.logo {
+  margin: 1rem;
+}
+
+.list {
+  text-align: left;
+  padding: 1.5rem;
+  line-height: 1.3rem;
+}
+
+.class {
+  color: hsl(0, 0%, 40%);
+  margin-bottom: 0.875rem;
+  border-bottom: 1px solid;
+}
+.edit-link {
+  text-align: right;
+}
+.edit-link a,
+i.fa-cog {
+  color: hsl(0, 0%, 40%);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.languages {
+  position: relative;
+}
+
+i.fa-cog {
+  position: absolute;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* ============== MAIN styles ==================== */
+.main {   
+  width: 87%;
+  display: inline-block;
+  float: right;
+}
+
+
+
+/* ============== NAVBAR styles ================= */
+nav {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 5.5rem;
+}
+
+.navbar-top,
+.navbar-bottom {
+  height: 50%;
+  width: 100%;
+  padding-right: 1.3rem; 
+}
+
+
+             /* == navbar-top == */
+.navbar-top {
+  text-align: right;
+  padding-top: 1.5rem;
+}
+
+.navbar-top a {
+  margin-right: 0.2rem;
+  font-size: 0.75rem;
+  display: inline;
+  text-align: right
+}
+
+.navbar-top a:first-child {
+  color: hsl(0, 0%, 40%);
+}
+
+
+             /* == navbar-bottom == */
+.navbar-bottom {
+  display: table;
+    border-bottom: 1px solid black;
+
+}
+
+.btns-left a,
+.btns-right a {
+  margin-right: 0.4rem;
+  vertical-align: bottom;
+}
+
+.btns-left,
+.btns-right {
+  display: table-cell;
+  vertical-align: bottom;
+  padding-bottom: 0.3rem;
+}
+
+.btns-right {
+  text-align: right;
+}
+
+input {
+  background-image: url(assets/search%20%20pic.png);
+  background-repeat:  no-repeat;
+  background-size: 25px;
+  background-position: right;
+  height: 1.7rem;
+  width: 15rem;
+  border: 1px solid grey;
+}
+
+
+
+
+
+                 /* ==== CONTENT styles ==== */
+.content {
+  padding: 1.5rem;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  background-color: white;
+}
+
+
+/* == info-box-right == */
+.info-box-right {
+  background-color: #f2f2f2;
+  border: 1px solid grey;
+  width: 300px;
+  float: right;
+  margin: 0 1rem 1rem 1rem;
+  padding: 1rem;
+}
+
+.info-box-right h4 {
+  text-align: center;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 1.09rem;
+}
+
+.info-box-right p {
+  text-align: center;
+}
+
+.list-wrapper {
+  display: inline-block;
+}
+
+.list-wrapper li {
+  list-style-type: none;
+  line-height: 1.5rem;
+  margin-right: 0.6rem;
+}
+
+.list-wrapper .bold {
+  font-weight: bold;
+}
+
+
+
+
+/* == 1st paragraph == */
+.content h1 {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Fraunces', serif;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid grey;
+  margin-bottom: 1rem;
+}
+
+.content .first-paragraph {
+  margin-bottom: 2.5rem;
+}
+
+.content p {
+  font-size: 0.96rem;
+  line-height: 1.4rem;
+}
+
+p strong {
+  font-weight: 700;
+}
+
+
+/* == small-content-box == */
+.small-contents-box {
+  border: 1px solid grey;
+  background-color: #f2f2f2;
+  display: inline-block;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.small-contents-box p{
+  text-align: center; 
+}
+
+.small-contents-box ol {
+  list-style-position: inside;
+  list-style-type: decimal;
+  line-height: 1.3rem;
+}
+
+.frst-list {
+  margin-top: 1rem;
+}
+
+.scnd-list {
+  margin-left: 2rem;
+}
+
+
+/* == 2nd (Plot) paragraph == */
+.content h2 {
+  margin: 1rem 0;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid grey;
+}
+.content h2 strong {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+/* == 3rd (Gameplay) paragraph == */
+
+.content .gameplay-pic {
+  width: 12rem;
+  padding: 0.3rem;
+  border: 1px solid grey;
+  background-color: #f2f2f2;
+  float: left;
+  margin-right: 1rem;
+}
+.content .gameplay-pic p {
+  font-size: 0.8rem;
+}
+
+.content h3 {
+  margin: 1rem 0;
+}
+.content h3 strong {
+  font-weight: bold;
+}
+
+.content .gplay-last-p {
+  margin-top: 1.5rem;
+}
+
+
+/* == 5th (Refernces) paragraph == */
+.content .reference-ol {
+  font-size: 0.9rem;
+  list-style-type: decimal;
+  list-style-position: inside;
+  padding-left: 3rem;
+  line-height: 1.2rem;
+}
+
+
+/* == 6th (Further...) paragraph == */
+.content ul {
+  font-size: 0.9rem;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+
+/* == categories-box == */
+.categories-box {
+  border: 1px solid grey;
+  background-color: #f2f2f2;
+  padding: 0.2rem;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.categories-box a {
+  display: inline-block;
+  line-height: 1.5rem;
+  border-left: 1.8px solid #a6a6a6;
+  padding: 0 0.5rem;
+}
+
+.categories-box .no-border {
+  border-left: none;
+}
+
+
+
+             /* ==== FOOTER styles ==== */
+.main footer {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.main footer p {
+  margin-bottom: 1rem;
+  line-height: 1rem;
+}
+
+.footer-bottom {
+  display: table;
+}
+
+.footer-links {
+  width: 81%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.footer-links a {
+  margin-right: 1rem;
+}
+
+footer img {
+  width: 6rem;
+}
+
+.wiki-pic {
+  margin-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

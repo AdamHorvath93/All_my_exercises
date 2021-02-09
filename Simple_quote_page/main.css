@@ -1,0 +1,157 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(assets/freedom.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  display: relative;
+}
+
+.wrapper {
+  position: absolute;
+  top: 2.5rem;
+  padding: 0 .5rem;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-style: italic;
+}
+
+p::before,
+p::after {
+  display: inline-block;
+  content: "";
+  background-color: #000;
+  height: 1px;
+  width: 1.7rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
+
+
+/* ===== Footer styles ===== */
+footer {
+  width: 100vw;
+  height: 10vh;
+  background-color: hsl(30, 50%, 50%, .7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: table;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+}
+
+.footer {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+a {
+  display: inline-block;
+  width: 20%;
+  text-decoration: none;
+  color: #4e3318;
+}
+
+a:hover {
+  color: #000000;
+  transition: .2s ease-in-out;
+}
+
+
+
+
+
+
+/* ======== Media Query ========= */
+
+@media screen and (min-width: 375px) {
+  .wrapper {
+    top: 3.5rem;
+  }
+  h1 {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    top: 5rem;
+    padding: 0 1.7rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    top: 7rem;
+  }
+  h1 {
+    font-size: 2.3rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    top: 9rem;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .wrapper {
+    top: 15rem;
+    padding: 7.1rem;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  p {
+    font-size: 3.5rem;
+  }
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+

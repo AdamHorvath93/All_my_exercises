@@ -1,0 +1,1 @@
+One of the first self-made footer. Simple, yet useable.

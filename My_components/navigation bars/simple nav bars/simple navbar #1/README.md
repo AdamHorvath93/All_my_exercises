@@ -1,0 +1,1 @@
+simple navbar --> some parts floated right, others floated left

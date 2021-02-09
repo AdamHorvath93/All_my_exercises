@@ -1,0 +1,47 @@
+/* GENERAL styles */
+* {
+  box-sizing: border-box;
+}
+
+main {
+  width: 100vw;
+  height: 200px;
+}
+
+
+
+/* FOOTER styles */
+footer {
+  width: 100vw;
+  background-image: url('https://wallpaperaccess.com/full/38147.jpg');
+  text-align: center;
+  display: table;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 3rem 0;
+}
+
+p {
+  color: #cccccc;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+strong {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.06rem;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 1rem;
+  color: #ff0066;
+}
+a:hover {
+  color: #ff4d94;
+  transition: 0.2s ease-in-out;
+}

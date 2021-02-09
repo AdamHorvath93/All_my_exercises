@@ -1,0 +1,83 @@
+/* GENERAL styles */
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+/* HEADER styles */
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://c0.wallpaperflare.com/preview/250/793/319/milkyway-milky-way-star.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color:#d9d9d9;
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 4rem;
+  display: table;
+  /* padding: 20% 0; ---- Ez nem jó megoldás a vertical centerhez! */
+}
+
+.container {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0.625rem
+}
+
+h2 {
+  letter-spacing: 0.1rem;
+}
+
+h3 {
+  letter-spacing: -0.05rem;
+}
+
+h1 {
+  font-size: 3.4rem;
+}
+
+
+
+
+/* MAIN styles */
+main {
+  margin: 15px 10px;
+}
+
+main h1 {
+  font-size: 1.8rem;
+  margin-left: 0px;
+}
+
+p {
+  margin-top: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 1.1rem;
+}
+
+
+
+
+/* MEDIA QUERY */
+@media screen and (min-width: 768px) {
+  main {
+    width: 60%;
+    margin: 2rem auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  main {
+    width: 40%;
+    margin: 2rem auto; /* margin sides auto, 
+    cuz it has a given 40% value --> 
+    ---> 40% and the rest is the margin */
+  }
+}

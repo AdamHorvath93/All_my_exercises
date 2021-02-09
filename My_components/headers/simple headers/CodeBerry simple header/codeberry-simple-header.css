@@ -1,0 +1,35 @@
+/* GENERAL styles */
+* {
+  box-sizing: border-box;
+}
+
+
+/* HEADER styles */
+header {
+  text-align: center;
+  border-bottom: 1px solid #a6a6a6;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+img {
+  width: 4rem;
+  border: 1px solid #a6a6a6;
+  border-radius: 100%;
+  padding: 0.25rem;
+}
+
+h1 {
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 1.1rem;
+  color: #555;
+  margin: 0.67rem 0;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.1rem;
+  color: #777;
+}
+
