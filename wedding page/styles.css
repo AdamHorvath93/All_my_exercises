@@ -1,0 +1,295 @@
+/* GENERAL styles */
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+/* HEADER styles */
+nav {
+  background-image: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg);
+  background-repeat: no-repeat;
+  background-position: 70%;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  display: table;
+  margin-bottom: 30px;
+}
+
+header {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+div.container {
+  margin-top: 130px;
+  padding: 25px;
+  background-color: hsl(0, 0%, 0%, .6);
+}
+
+header .dividingLine {
+  border-bottom: 1px solid white;
+  width: 150px;
+  display: inline-block;
+}
+
+div.container h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.2rem;
+}
+
+.container .date::before,
+.container .date::after {
+  display: inline-block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 1.7rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
+
+div.container h1 {
+  font-family: 'Great Vibes', cursive;
+  color: #d2ba87;
+  font-size: 3rem;
+  margin: 20px;
+  display: inline-block;
+}
+
+
+
+
+
+/* BODY styles */
+body {
+  background-image: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png);
+  background-repeat: repeat;
+  text-align: center;
+  color: #444349;
+  width: 100vw;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.all-h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.5rem;
+  margin-bottom: 25px;
+}
+
+.all-h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  font-size: 1.5rem
+}
+
+.all-h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+}
+
+.all-p {
+  line-height: 1.5rem;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+a {
+  color: #bd806e;
+}
+a:hover {
+  color: #eda087;
+}
+
+
+
+
+
+
+
+
+/* Location styles */
+.locations {
+  line-height: 3rem;
+}
+
+.locations p {
+  text-align: center;
+}
+
+.locations .dividingLine {
+  border-bottom: 3px solid #444349;
+  width: 90px;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+/* Program styles */
+.program {
+  width: 100vw;
+  background-color: hsla(100,0%,0%,.6);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #d2ba87;
+}
+
+.program p {
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+.program ul,
+.program p {
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-weight: bold;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.1rem;
+}
+
+.program ul {
+  line-height: 1.8rem;
+}
+
+
+
+
+
+/* Gifts styles */
+.gifts {
+  margin-top: 3rem;
+  line-height: 3rem;
+  padding: 0 2rem;
+}
+
+
+
+
+/* Questions & Answers styles */
+.questions {
+  background-color: hsla(100,0%,0%,.6);
+  width: 100vw;
+  color: #d2ba87;
+  padding: 3rem 2rem;
+  line-height: 1.5rem;
+}
+
+.questions .dividingLine {
+  border-bottom: 3px solid #d2ba87;
+  width: 200px;
+  display: inline-block;
+}
+
+.questions h1, h2, p, .dividingLine {
+  margin-bottom: 2rem;
+}
+
+.questions h3, .questions p {
+  text-align: left;
+}
+
+.questions h1 {
+  line-height: 3rem;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.questions h3 {
+  margin-bottom: 0.3rem;
+}
+
+
+
+
+
+
+/* Contact styles */
+.contact {
+  padding: 2rem 2rem;
+}
+
+
+
+
+/* FOOTER styles */
+footer {
+  background-color: #606060;
+  width: 100vw;
+  height: 15vh;
+  text-align: center;
+  padding: 15px 15px;
+  color: white;
+}
+
+footer .all-p {
+  font-size: 0.9rem;
+}
+
+
+
+/* !!!!  MEDIA QUERY  !!!!  */
+@media screen and (min-width: 768px) {
+  /* header */
+    header .container{
+       width: 500px;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    header .container h1 {
+      display: block;
+    }
+  }
+
+/* locations */
+@media screen and (min-width: 768px) {
+      .locations .loc {
+      display: inline-block;
+      width: 33%;
+    }
+    .loc .dividingLine {
+      display: none;
+    }
+  }
+
+
+/* program */
+@media screen and (min-width: 768px) {
+    .program .second-container {
+    display: inline-block;
+    }
+  }
+
+
+
+
+/* questions */
+@media screen and (min-width: 768px) {
+  .questions .dividingLine {
+    display: none;
+  }
+  .questions .content {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+}
