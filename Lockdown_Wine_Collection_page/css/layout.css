@@ -1,0 +1,46 @@
+
+/**
+ * CONTENT
+ *
+ * LAYOUT
+ *
+ * ........
+ */
+
+
+
+
+/*------------------------------------*\
+  #LAYOUT
+\*------------------------------------*/
+
+.header {
+  grid-area: nav;
+}
+
+
+.picture-header {
+  grid-area: header;
+}
+
+
+.content {
+  grid-area: main;
+}
+
+
+footer {
+  grid-area: footer;
+}
+
+
+
+body {
+  grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "footer";
+}
+
+

@@ -1,0 +1,104 @@
+
+/**
+ * CONTENT
+ *
+ * Base styles......describing the basic syles.
+ * Navigation.......navigation bar main settings.
+ * Header - Pic.....whole viewport header styles.
+ * Content..........main area of the site.
+ * Footer...........footer styles.
+ *
+ **/
+
+
+ 
+
+/*------------------------------------*\
+  #BASE STYLES
+\*------------------------------------*/
+
+:root {
+  --font-family: 'Dosis', sans-serif;
+}
+
+body {
+  display:      grid;
+  position:     relative;
+  width:        100vw;
+  font-family:  var(--font-family);
+}
+
+
+
+
+
+/*------------------------------------*\
+  #NAVIGATION
+\*------------------------------------*/
+
+.navigation {
+  display:            flex;
+  flex-direction:     column;
+  justify-content:    flex-end;
+  height:             170px;
+  padding:            10px;
+  background:         url(https://thewallpaper.co/wp-content/uploads/2020/08/wall-picture-background-windows-4k-pc-1920x1080-1-1200x675.jpg);
+  color:            white;
+}
+
+
+
+
+/*------------------------------------*\
+  #HEADER - PIC
+\*------------------------------------*/
+
+.picture-header {
+  display:              flex;
+  align-items:          center;
+  justify-content:      center;
+  background-image:     url(https://ballentinevineyards.com/wp-content/uploads/2020/12/Untitled-design-2020-12-28T162143.850.png);
+  background-repeat:    no-repeat;
+  background-size:      cover;
+  height:               calc(100vh - 170px);
+}
+
+
+
+
+/*------------------------------------*\
+  #CONTENT
+\*------------------------------------*/
+
+.section {
+  display:          grid;
+  grid-gap:         15px;
+  justify-content:  center;
+  padding:          3rem 0;
+}
+
+
+.dividing-line {
+  margin:         0 auto;
+  width:          min(50vw, 400px);
+  border-bottom:  1px solid gray;
+}
+
+
+
+
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
+
+.wrapper {
+  display:              flex;
+  flex-direction:       column;
+  margin-top:           5rem;
+  height:               150px;
+  background:           url(https://thewallpaper.co/wp-content/uploads/2020/08/wall-picture-background-windows-4k-pc-1920x1080-1-1200x675.jpg);
+  background-position:  center;
+  background-repeat:    repeat;
+  justify-content:      center;
+  align-items:          center;
+}
