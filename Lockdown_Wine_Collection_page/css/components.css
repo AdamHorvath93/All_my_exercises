@@ -184,7 +184,7 @@
 
 .winemakers {
   text-align: center;
-  line-height: 1.3rem;
+  line-height: 1.8rem;
   font-size: 1.2rem;
 }
 
@@ -238,7 +238,7 @@
 
    .price {
      position:  absolute;
-     left:      calc(100% - 80px);
+     left:      calc(100% - 90px);
      top:       calc(100% - 30px);
    }
 
