@@ -1,5 +1,5 @@
 /**
- * CONTENT
+ * CONTENT TABLE
  *
  * NAVBAR BUTTONS
  *
@@ -146,9 +146,10 @@
 }
 
 .region-name {
-  justify-self:     center;
-  padding-top:      1rem;
-  font-size:        1.2em;
+  text-align:       center;
+  padding:          1rem 0;
+  margin-top:       1.5rem;
+  font-size:        1.4rem;
   font-weight:      700;
 }
 
@@ -173,19 +174,23 @@
     width:          max(250px, 75vw);
     border:         1px solid #ccccb3;
     border-radius:  5px;
-    filter:         grayscale(60%);
   }
   
   .cards__regions:hover {
     transform:    scale(1.05);
     box-shadow:   2px 3px 16px grey;
-    filter:       none;
+    filter:       contrast(120%);
   }
 
+.winemakers {
+  text-align: center;
+  line-height: 1.3rem;
+  font-size: 1.2rem;
+}
 
 
 
-/*------------------------------------*\
+  /*------------------------------------*\
   #CARDS - WINES
 \*------------------------------------*/
 
@@ -197,6 +202,7 @@
   border:         1px solid #ccccb3;
   border-radius:  5px;
   padding:        1.5rem;
+  margin-top:     1.2rem;
 }
 
  .cards--white,
@@ -204,7 +210,7 @@
 
   .cards--white:hover {
     transform:    scale(1.05);
-    box-shadow:   2px 3px 16px #e6b800;
+    box-shadow:   2px 3px 16px #ffff66;
   }
 
   .cards--red:hover {
@@ -213,19 +219,19 @@
   }
 
 
-  .pic {
+  .wine-pic {
     width:        max(70px, 10vw);
     filter:       drop-shadow(1px 12px 6px gray);
     transition:   .5s ease-out;
   }
 
-  .pic:hover { transform: rotate(5deg); }
+  .wine-pic:hover { transform: rotate(5deg); }
 
 
   .text { 
     align-self:     center;
     line-height:    23px;
-    font-size:      max(2vw, 20px);
+    font-size:      max(1.5vw, 20px);
   }
 
    .small { font-size: .7em; }

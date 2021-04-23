@@ -4,8 +4,9 @@
  *
  * LAYOUT
  *
- * ........
- */
+ * MEDIA QUERY
+ *
+ **/
 
 
 
@@ -44,3 +45,70 @@ body {
 }
 
 
+
+
+/*------------------------------------*\
+  #MEDIA QUERY 
+\*------------------------------------*/
+
+@media screen and (max-width: 1023px) {
+
+  .winemakers {
+    display: none;
+  }
+
+}
+
+
+
+
+
+@media screen and (min-width: 1024px){
+  
+  .section-wrapper-regions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+
+
+    #cards__regions {
+      width: 30vw;
+      margin: 2rem 0;
+    }
+
+}
+
+
+@media  screen and (min-width: 1024px) {
+
+  .section-wrapper-wines {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+  
+
+    #cards__wines {
+      width: 30vw;
+      margin-top: 0;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 1440px) {
+
+  .section-wrapper-wines {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+
+    #cards__wines {
+      width: 25vw;
+      margin-top: 0;
+    }
+}
