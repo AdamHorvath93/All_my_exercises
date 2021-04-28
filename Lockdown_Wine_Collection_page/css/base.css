@@ -54,6 +54,7 @@ body {
 \*------------------------------------*/
 
 .picture-header {
+  position:             relative;   /* this we need for he absolut ball animaion */
   display:              flex;
   align-items:          center;
   justify-content:      center;

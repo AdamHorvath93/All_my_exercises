@@ -94,6 +94,7 @@
 
 
 
+
 /*------------------------------------*\
   #CHATBOX
 \*------------------------------------*/
@@ -183,10 +184,46 @@
   }
 
 .winemakers {
-  text-align: center;
-  line-height: 1.8rem;
-  font-size: 1.2rem;
+  position:     relative;
+  text-align:   center;
+  line-height:  1.8rem;
+  font-size:    1.2rem;
 }
+
+
+  .ball {
+    display:        flex;
+    position:       absolute;
+    height:         4vw;   /* this gives size to the grape pic */
+  }
+
+  .ball__round {
+    border-radius: 50%;
+    filter: drop-shadow(2px 2px 3px black);
+  }
+
+  .animated-pic { max-width: 100%; }  
+  /* without this the whitespace on the right of the animated pic
+  would reach over the width of the page */
+
+  .ball__left { animation: bounce-left 1s ease-in .1s infinite alternate both; }
+
+    @keyframes bounce-left {
+      0%   {left: 10%; bottom: 70%}
+      100% {left: 10%; bottom: 0%}
+    }
+  
+  .ball__right { animation: bounce-right .8s ease-in .1s infinite alternate both; }
+
+    @keyframes bounce-right {
+      0%   {left: 80%; bottom: 70%}
+      100% {left: 80%; bottom: 0%}
+    }
+
+    
+
+  
+
 
 
 
@@ -258,6 +295,6 @@
   text-decoration:  none;
   display:          inline-block;
   padding:          20px 10px 0 0;
-  color:          #008000;
+  color:            #008000;
   font-weight:      900;
 }
